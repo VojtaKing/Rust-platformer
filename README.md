@@ -14,6 +14,7 @@ Control a red square that can jump across green platforms, featuring basic gravi
 git clone https://github.com/VojtaKing/Rust-platformer.git
 cd Rust-platformer
 cargo run
+```
 ⚙️ Features
 Basic gravity and horizontal movement
 
