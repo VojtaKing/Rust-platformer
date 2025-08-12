@@ -1,31 +1,28 @@
-simple 2D platformer prototype built in Rust using the Macroquad game framework.
-The player controls a red square that can jump between green platforms, with basic gravity, collision detection, and camera tracking.
+# Rust Platformer
 
+A simple 2D platformer prototype built in Rust using the [Macroquad](https://macroquad.rs/) game framework.  
+Control a red square that can jump across green platforms, featuring basic gravity, collision detection, and camera tracking.
 
+## 📦 Installation & Running
 
-📦 Installation & Running
-Requirements:
+### Requirements
+- [Rust](https://www.rust-lang.org/) (latest stable version recommended)  
+- Internet connection (for downloading dependencies from [crates.io](https://crates.io/))
 
-Rust (latest stable version recommended)
-
-Internet connection (for downloading dependencies from crates.io)
-
-Build and run:
-
-bash
-Copy
-Edit
-git clone https://github.com/VojtaKing/Rust-platformer
+### Build and Run
+```bash
+git clone https://github.com/VojtaKing/Rust-platformer.git
 cd Rust-platformer
 cargo run
 ⚙️ Features
-Basic Physics – Simple gravity and horizontal movement.
+Basic gravity and horizontal movement
 
-Collision Detection – Axis-aligned bounding box (AABB) collision handling with platforms.
+Axis-aligned bounding box (AABB) collision with platforms
 
-Camera Tracking – The camera follows the player’s position for a smooth gameplay view.
+Camera follows the player smoothly
 
 📚 Technologies Used
-Rust – Safe, fast, and memory-efficient programming language.
+Rust
 
-Macroquad – Cross-platform 2D/3D game engine for Rust.
+Macroquad
+
