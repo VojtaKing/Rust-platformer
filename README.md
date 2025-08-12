@@ -21,6 +21,7 @@ Basic gravity and horizontal movement
 Axis-aligned bounding box (AABB) collision with platforms
 
 Camera follows the player smoothly
+![Gameplay screenshot](assets/image.png)
 
 📚 Technologies Used
 Rust
