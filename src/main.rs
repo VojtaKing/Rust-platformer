@@ -59,7 +59,7 @@ async fn main() {
     let platform_w = 100.0;
     let platform_h = 20.0;
     let dt = get_frame_time();
-    let mut camera = Camera2D {
+ let mut camera = Camera2D {
         target: vec2(x, y),
         zoom: vec2(0.7 / screen_width() * 2.0, 0.7 / screen_height() * 2.0),
         ..Default::default()
@@ -67,7 +67,7 @@ async fn main() {
 
     loop {
         set_default_camera();
-        if is_key_pressed(KeyCode::Space) && velocity_y == 0.0 {
+        if is_key_down(KeyCode::Space) && velocity_y == 0.0 {
             velocity_y = jump_strength;
         }
 
